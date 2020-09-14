@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="oopsw.alphabet">
+  <grid id="27dc6" binding="panel_alphabet" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="555" height="695"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <grid id="5451" binding="panel_btns" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d6dda" class="javax.swing.JButton" binding="btnBack">
+            <constraints/>
+            <properties>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="ca5ce" class="javax.swing.JButton" binding="btnMsg">
+            <constraints/>
+            <properties>
+              <text value="Help!"/>
+            </properties>
+          </component>
+          <component id="14d80" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Next"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8d32f" binding="panel_btnAlphabets" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="13" left="13" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="dbd2b" class="javax.swing.JButton" binding="btnA">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="A"/>
+            </properties>
+          </component>
+          <component id="b4f06" class="javax.swing.JButton" binding="btnB">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="B"/>
+            </properties>
+          </component>
+          <component id="5749f" class="javax.swing.JButton" binding="btnC">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="2a27b" class="javax.swing.JButton" binding="btnD">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="D"/>
+            </properties>
+          </component>
+          <component id="939a3" class="javax.swing.JButton" binding="btnE">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="E"/>
+            </properties>
+          </component>
+          <component id="bff5b" class="javax.swing.JButton" binding="btnF">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="F"/>
+            </properties>
+          </component>
+          <component id="fcec2" class="javax.swing.JButton" binding="btnG">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="G"/>
+            </properties>
+          </component>
+          <component id="af3af" class="javax.swing.JButton" binding="btnH">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="H"/>
+            </properties>
+          </component>
+          <component id="d3dc2" class="javax.swing.JButton" binding="btnI">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="I"/>
+            </properties>
+          </component>
+          <component id="8d528" class="javax.swing.JButton" binding="btnJ">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="J"/>
+            </properties>
+          </component>
+          <component id="f264a" class="javax.swing.JButton" binding="btnK">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="K"/>
+            </properties>
+          </component>
+          <component id="56cda" class="javax.swing.JButton" binding="btnL">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="L"/>
+            </properties>
+          </component>
+          <component id="71bd" class="javax.swing.JButton" binding="btnM">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="M"/>
+            </properties>
+          </component>
+          <component id="54d11" class="javax.swing.JButton" binding="btnN">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="N"/>
+            </properties>
+          </component>
+          <component id="e61f4" class="javax.swing.JButton" binding="btnO">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="O"/>
+            </properties>
+          </component>
+          <component id="4a6b" class="javax.swing.JButton" binding="btnP">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="P"/>
+            </properties>
+          </component>
+          <component id="bc8d7" class="javax.swing.JButton" binding="btnQ">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Q"/>
+            </properties>
+          </component>
+          <component id="55498" class="javax.swing.JButton" binding="btnR">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="R"/>
+            </properties>
+          </component>
+          <component id="6ab34" class="javax.swing.JButton" binding="btnS">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="S"/>
+            </properties>
+          </component>
+          <component id="acff6" class="javax.swing.JButton" binding="btnT">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="T"/>
+            </properties>
+          </component>
+          <component id="a499" class="javax.swing.JButton" binding="btnU">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="U"/>
+            </properties>
+          </component>
+          <component id="f0fb6" class="javax.swing.JButton" binding="btnV">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="V"/>
+            </properties>
+          </component>
+          <component id="b6ddb" class="javax.swing.JButton" binding="btnW">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="W"/>
+            </properties>
+          </component>
+          <component id="3f2f6" class="javax.swing.JButton" binding="btnX">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="X"/>
+            </properties>
+          </component>
+          <component id="e1297" class="javax.swing.JButton" binding="btnY">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Y"/>
+            </properties>
+          </component>
+          <component id="4f257" class="javax.swing.JButton" binding="btnZ">
+            <constraints>
+              <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Z"/>
+            </properties>
+          </component>
+          <component id="4b402" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/64x64.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8bbb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/b.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4dc6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/c.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ee692" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/d.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="745cf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/e.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d478c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/f.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="67498" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/g.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5a18a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/h.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8cad7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/i.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ee1a4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/j.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="58802" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/k.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9fb0a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/l.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ebcd1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/m.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4a91" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/n.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="99af1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/o.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d9933" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/p.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a1982" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/q.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5978e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/r.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="78d97" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/s.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="29908" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/t.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9a3c5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/u.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c54c0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/v.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3b73d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/w.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2aa7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/x.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a24a2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/y.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="41f45" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="alphabet_icons/64x64_icons/z.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
