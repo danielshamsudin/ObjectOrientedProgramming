@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class main_page {
     private JButton btn1;
     private JPanel panel_main;
-    private JButton button1;
+    private JButton numbersButton;
     private JButton button2;
     private JButton button3;
     private JButton button4;
@@ -29,6 +29,13 @@ public class main_page {
             }
         });
         f.setLocationRelativeTo(null);
+        numbersButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                numbers n = new numbers();
+            }
+        });
     }
 
     public static void main(String[] args)
