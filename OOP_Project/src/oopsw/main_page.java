@@ -8,7 +8,7 @@ public class main_page {
     private JButton btn1;
     private JPanel panel_main;
     private JButton numbersButton;
-    private JButton button2;
+    private JButton foodButton;
     private JButton button3;
     private JButton button4;
     private JButton button5;
@@ -34,6 +34,13 @@ public class main_page {
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
                 numbers n = new numbers();
+            }
+        });
+        foodButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                food f1 = new food();
             }
         });
     }
