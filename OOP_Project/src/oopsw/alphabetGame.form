@@ -21,6 +21,7 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <enabled value="false"/>
               <font name="Source Code Pro" size="20" style="1"/>
               <text value="Let's Try It Out!"/>
             </properties>
@@ -66,7 +67,9 @@
         <children>
           <component id="d30a" class="javax.swing.JLabel">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="460" height="425"/>
+              </grid>
             </constraints>
             <properties>
               <horizontalTextPosition value="0"/>

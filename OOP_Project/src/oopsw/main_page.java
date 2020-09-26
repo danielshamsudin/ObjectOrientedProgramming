@@ -9,9 +9,9 @@ public class main_page {
     private JPanel panel_main;
     private JButton numbersButton;
     private JButton foodButton;
-    private JButton button3;
     private JButton button4;
     private JButton button5;
+    private JButton animalButton;
     public static JFrame f = new JFrame("Let's Learn English!");
 
     public main_page()
@@ -41,6 +41,13 @@ public class main_page {
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
                 food f1 = new food();
+            }
+        });
+        animalButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                animalsFarm1 a = new animalsFarm1();
             }
         });
     }
