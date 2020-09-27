@@ -54,7 +54,7 @@ public class alphabet {
         btnMsg.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Click on each alphabet to play the sound!");
+                JOptionPane.showMessageDialog(null, "Click on each alphabet to play the sound!\nPress next when you are ready for the game!");
             }
         });
         btnBack.addActionListener(new ActionListener() {

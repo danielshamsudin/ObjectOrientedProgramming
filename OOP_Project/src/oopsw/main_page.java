@@ -5,13 +5,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class main_page {
-    private JButton btn1;
+    private JButton btnAlpha;
     private JPanel panel_main;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
+    private JButton colorsButton;
+    private JButton clothesButton;
+    private JButton animalButton;
+    private JButton foodButton;
+    private JButton numbersButton;
     public static JFrame f = new JFrame("Let's Learn English!");
 
     public main_page()
@@ -21,14 +21,70 @@ public class main_page {
         f.setSize(400,400);
         //f.pack();
         f.setVisible(true);
-        btn1.addActionListener(new ActionListener() {
+        f.setLocationRelativeTo(null);
+        btnAlpha.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
                 alphabet a = new alphabet();
             }
         });
-        f.setLocationRelativeTo(null);
+
+        colorsButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                colors c = new colors();
+            }
+        });
+
+        animalButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                animalsFarm1 af1 = new animalsFarm1();
+            }
+        });
+
+        numbersButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                numbers nn = new numbers();
+            }
+        });
+
+        foodButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                food ff = new food();
+            }
+        });
+
+        clothesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                f.dispose();
+                clothes cc = new clothes();
+            }
+        });
+        if (alphabetGame.getAlphaState())
+            btnAlpha.setText("Alphabets! (✓)");
+
+        if (colorGame.getColorState())
+            colorsButton.setText("Colours! (✓)");
+
+        if (animalsGame3.getAnimalState())
+            animalButton.setText("Animals! (✓)");
+
+        if (numbersGame3.getNumberState())
+            numbersButton.setText("Numbers! (✓)");
+
+        if (clothesGame.getClothesState())
+            clothesButton.setText("Clothes! (✓)");
+
+
     }
 
     public static void main(String[] args)
