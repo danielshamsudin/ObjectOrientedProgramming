@@ -89,7 +89,7 @@ public class food {
                 if(counter>(threshold-1))
                 {
                     f1.dispose();
-                    main_page m = new main_page();
+                    foodGame1 f = new foodGame1();
                 }
                 else
                 {
