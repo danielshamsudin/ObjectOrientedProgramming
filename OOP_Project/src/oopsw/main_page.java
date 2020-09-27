@@ -16,7 +16,6 @@ public class main_page {
 
     public main_page()
     {
-        finalPage fffff = new finalPage();
         f.setContentPane(this.panel_main);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(400,400);
