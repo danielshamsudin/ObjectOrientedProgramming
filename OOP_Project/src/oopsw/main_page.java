@@ -16,10 +16,10 @@ public class main_page {
 
     public main_page()
     {
+        finalPage fffff = new finalPage();
         f.setContentPane(this.panel_main);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(400,400);
-        //f.pack();
         f.setVisible(true);
         f.setLocationRelativeTo(null);
         btnAlpha.addActionListener(new ActionListener() {
@@ -84,7 +84,15 @@ public class main_page {
         if (clothesGame.getClothesState())
             clothesButton.setText("Clothes! (✓)");
 
+        if (foodGame3.getFoodState())
+            foodButton.setText("Foods! (✓)");
 
+        if(alphabetGame.getAlphaState() && colorGame.getColorState() && animalsGame3.getAnimalState() && numbersGame3.getNumberState() && clothesGame.getClothesState() &&foodGame3.getFoodState())
+        {
+            JOptionPane.showMessageDialog(null, "Congratulations! You have completed all of the topics!");
+            f.dispose();
+            finalPage fp = new finalPage();
+        }
     }
 
     public static void main(String[] args)
